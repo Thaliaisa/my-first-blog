@@ -1,0 +1,89 @@
+.page-header {
+    background-color: #6882f8;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.page-header h1,
+.page-header h1 a,
+.page-header h1 a:visited,
+.page-header h1 a:active {
+    color: #ffffff;
+    font-size: 40pt;
+    text-decoration: none;
+    font-family: 'Georgia';
+}
+
+h2,
+h3,
+h3 a,
+h3 a:visited, 
+h3 a:active,
+h4 {
+    background-color: rgb(255, 255, 255);
+    color:#414fcf;
+    font-family:'Fugaz One';
+    font-size: 20pt;
+    text-decoration: none;
+    padding: 0 0 2px 30px;
+}
+
+.post-text {
+    text-indent: 30px;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    line-height: 1.2;
+    color:#0d1348;
+    padding: 0 40px 0 40px;
+}
+.date {
+    color: #414fcf;
+}
+
+.save {
+    float: right;
+}
+
+.post-form textarea,
+.post-form input {
+    width: 100%;
+}
+
+.top-menu,
+.top-menu:hover,
+.top-menu:visited {
+    color: #f9e99a;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
+
+.post {
+   border-bottom: 5px solid #6882f8;
+   padding-bottom: 30px;
+   margin-bottom: 40px;
+}
+
+.post h2 a,
+.post h2 a:visited {
+    color: #c1eb4e;
+}
+
+.post > .date,
+.post > .actions {
+    float: right;
+}
+
+.btn-secondary,
+.btn-secondary:visited {
+    color: #C25100;
+    background: none;
+    border-color: #C25100;
+    margin-left: 15px;
+}
+
+.btn-secondary:hover {
+    color: #FFFFFF;
+    background-color: #C25100;
+}
