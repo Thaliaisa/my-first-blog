@@ -6,4 +6,5 @@ from . import views
 
 urlpatterns = [
     path('', views.post_list, name='post_list'), #o path mapeia uma URL para uma view 
+    path('post/<int:pk>/', views.post_detail, name='post_detail'),
 ]
