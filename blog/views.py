@@ -17,10 +17,10 @@ def post_detail(request, pk):
 
 def post_new(request):
     if request.method == "POST":
-        form = PostForm()
+        form = PostForm(request.POST)
         if form.is_valid():
             post = form.save(commit=False)
-            post.auhtor = request.user
+            post.author = request.user
             post.published_date = timezone.now()
             post.save()
             return redirect ('post_detail', pk=post.pk)
